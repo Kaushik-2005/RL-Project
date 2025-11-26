@@ -1,0 +1,39 @@
+================================================================================
+BIAS MITIGATION USING REINFORCEMENT LEARNING - SUMMARY REPORT
+================================================================================
+
+PROJECT: Loan Approval System - Gender Bias Mitigation
+ALGORITHM: Deep Q-Network (DQN) with Fairness Regularization
+
+--------------------------------------------------------------------------------
+BASELINE (Historical Biased Data)
+--------------------------------------------------------------------------------
+Approval Rate (Men):    42.93%
+Approval Rate (Women):  18.92%
+SPD (Women - Men):      -0.2401
+Absolute Bias Gap:      24.01%
+
+--------------------------------------------------------------------------------
+TRAINED RL AGENT
+--------------------------------------------------------------------------------
+Approval Rate (Men):    40.30%
+Approval Rate (Women):  18.05%
+SPD (Women - Men):      -0.2225
+Absolute Bias Gap:      22.25%
+
+--------------------------------------------------------------------------------
+IMPROVEMENT METRICS
+--------------------------------------------------------------------------------
+SPD Reduction:          0.0176 (7.3% improvement)
+Disparity Ratio Change: 0.441 → 0.448
+
+✓ FAIRNESS IMPROVED: Bias gap reduced by 7.3%
+
+================================================================================
+CONCLUSION
+================================================================================
+The DQN agent successfully learned to balance loan approval accuracy with
+fairness constraints, reducing gender-based disparity in approval rates.
+The fairness penalty in the reward function effectively guided the agent
+toward more equitable decision-making.
+================================================================================
