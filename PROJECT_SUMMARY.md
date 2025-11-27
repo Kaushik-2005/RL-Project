@@ -207,7 +207,7 @@ python main.py
 
 ---
 
-## 📝 Alignment with PDF Requirements
+<!-- ## 📝 Alignment with PDF Requirements
 
 | Requirement | Section | Status |
 |------------|---------|--------|
@@ -225,7 +225,7 @@ python main.py
 | Dataset Observations | 6 | ✅ Complete |
 | Limitations | 7 | ✅ Documented |
 
----
+--- -->
 
 ## 🎓 Key Learning Outcomes
 
